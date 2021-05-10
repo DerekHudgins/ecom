@@ -18,7 +18,7 @@ const growlers = {
 };
 const milesDavis = {
     id: 'milesDavis',
-    name: 'Miles DAvis',
+    name: 'Miles Davis',
     image: 'miles.png',
     description: 'Jazz from the 1950s',
     category: 'Jazz',

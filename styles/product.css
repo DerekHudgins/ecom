@@ -1,15 +1,16 @@
-/* add home page styles here */
 body {
     background-image: url('https://wallpaperaccess.com/full/800696.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: cover;
+    
 }
 
-.title {
-    color: lightseagreen;
-    font-size: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+#music {
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    flex-wrap: wrap;
 }
