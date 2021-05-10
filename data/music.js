@@ -25,7 +25,7 @@ const milesDavis = {
     price: 15.00,
     cost: 5.00 
 };
-const streetLight= {
+const streetLight = {
     id: 'streetLight',
     name: 'Streetlight Manifesto',
     image: 'streetlight.png',
@@ -43,3 +43,12 @@ const specials = {
     price: 15.00,
     cost: 5.00 
 };
+
+const music = {
+    smiths,
+    growlers,
+    milesDavis,
+    streetLight,
+    specials
+};
+export default music;
