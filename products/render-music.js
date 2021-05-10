@@ -1,4 +1,4 @@
-export function renderMusic (music){
+export function renderMusic(music){
     const li = document.createElement('li');
     li.classList.add(music.category);
     li.title = music.description;
@@ -8,7 +8,7 @@ export function renderMusic (music){
     li.appendChild(h3);
 
     const img = document.createElement('img');
-    img.src = `../assets${music.image}`;
+    img.src = `../assets/${music.image}`;
     img.alt = `${music.name} image`;
     li.appendChild(img);
     

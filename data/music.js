@@ -3,7 +3,7 @@ const smiths = {
     name: 'The Smiths',
     image: 'smiths.png',
     description: 'A new wave/emo band from the UK',
-    category: 'new wave',
+    category: 'newwave',
     price: 15.00,
     cost: 5.00 
 };
@@ -12,7 +12,7 @@ const growlers = {
     name: 'The Growlers',
     image: 'growlers.png',
     description: 'surf rock',
-    category: 'beach goth',
+    category: 'beachgoth',
     price: 15.00,
     cost: 5.00 
 };
@@ -44,11 +44,11 @@ const specials = {
     cost: 5.00 
 };
 
-const music = {
+const musics = [
     smiths,
     growlers,
     milesDavis,
     streetLight,
     specials
-};
-export default music;
+];
+export default musics;
