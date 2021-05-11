@@ -2,6 +2,7 @@ import musics from '../data/music.js';
 import { findById } from '../utils.js';
 import cartItems from '../cart-items.js';
 export function renderCartItem(cartItem) {
+    
     const music = findById(musics, cartItem.id);
     
     const tr = document.createElement('tr');

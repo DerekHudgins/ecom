@@ -18,3 +18,23 @@ body {
 ul {
     color: lightseagreen;
 }
+
+.cart-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
