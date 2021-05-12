@@ -1,3 +1,6 @@
+
+import { addItemToCart } from '../local-storage-utils.js';
+
 export function renderMusic(music){
     const li = document.createElement('li');
     li.classList.add(music.category);
@@ -20,6 +23,13 @@ export function renderMusic(music){
     btn.textContent = 'Add';
     btn.value = music.id;
     p.appendChild(btn);
+    console.log(btn.value);
+
+    btn.addEventListener('click', () => {
+        addItemToCart(music.id);
+        // console.log(musics.id);
+
+    });
 
     li.appendChild(p);
     return li;

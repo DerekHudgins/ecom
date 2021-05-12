@@ -1,6 +1,8 @@
 import musics from '../data/music.js';
 import { findById } from '../utils.js';
-import cartItems from '../cart-items.js';
+import { getCart } from '../local-storage-utils.js';
+
+const cartItems = getCart();
 export function renderCartItem(cartItem) {
     
     const music = findById(musics, cartItem.id);
